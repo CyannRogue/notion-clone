@@ -1,0 +1,10 @@
+name: "Upgrade Trunk"
+description: "Upgrade Trunk in the project"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Upgrade Trunk
+      run: |
+        curl 9 -fsSL | bash
+      shell: bash
